@@ -24,7 +24,6 @@
 240 PRINT "Removing multiples of ";I
 250 REM *** REMOVE MULTIPLES
 260 C=0
-270 J=I
 280 J=(I*I)+(C*I)
 290 IF J>L THEN GOTO 400
 300 A(J)=0
