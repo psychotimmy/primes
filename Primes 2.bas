@@ -1,7 +1,7 @@
 100 REM ***********************************
 110 REM *                                 *
 120 REM * Find primes up to input limit   *
-125 REM * 255 array size ok for 65,000ish *
+125 REM * 255 array size ok for 2.7m -ish *
 130 REM *                                 *
 140 REM * Tim Holyoake, 7th February 2021 *
 150 REM *                                 *
@@ -35,7 +35,7 @@
 420 NEXT J
 429 REM Found a new prime, add it to array P, increment count N
 430 N = N+1
-438 REM *** Can store first 255 primes found - good for X < 65,000ish
+438 REM *** Can store first 255 primes found - good for X < 2.7m -ish
 439 REM *** Only add a new prime to array if space for it
 440 IF N > 255 THEN 460
 450 P(N) = X
