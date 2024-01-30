@@ -8,3 +8,5 @@ Primes2.bas: A different implementation, approximately 35% slower than Primes.ba
 Primes2.pas: A Pascal implementation of Primes2.bas, suitable for the Free Pascal compiler (v3.0.4 was tested) found on many linux ports - e.g. Raspberry Pi Buster.
 
 Primes.mod: A Modula-2 implementation of Primes2.bas, created using FTL (HiSoft) Modula-2 1.30 under CP/M 2.2.
+
+Primes.c: A (K&R) C implementation of Primes2.bas, created using the Aztec C 1.06D compiler undex CP/M 2.2.
