@@ -5,6 +5,8 @@ Primes.bas: The 32K RAM RC2014 Classic ][ has enough memory to generate the prim
 
 Primes2.bas: A different implementation, approximately 35% slower than Primes.bas for finding the primes up to 7,500, but capable of finding all the primes up to 2.7 million-ish with the array size specified (255, so that the code will run with minimal changes on a Sharp MZ-80K running BASIC SP-5025).
 
+Primes80.bas - A Digital Research CBASIC80 2.0 compiler implementation under CP/M 2.2.
+
 Primes2.pas: A Pascal implementation of Primes2.bas, suitable for the Free Pascal compiler (v3.0.4 was tested) found on many linux ports - e.g. Raspberry Pi Buster.
 
 Primes.mod: A Modula-2 implementation of Primes2.bas, created using FTL (HiSoft) Modula-2 1.30 under CP/M 2.2.
